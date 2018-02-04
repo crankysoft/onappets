@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\simd">
+      <UniqueIdentifier>{886436a8-3704-4a95-a621-7777dcafd159}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\jaricom.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jcapimin.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jcapistd.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jccoefct.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jccolor.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jcdctmgr.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jchuff.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jcinit.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jcmainct.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jcmarker.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jcmaster.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jcomapi.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jcparam.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jcphuff.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jcprepct.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jcsample.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jctrans.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jdapimin.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jdapistd.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jdarith.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jdatadst.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jdatasrc.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jdcoefct.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jdcolor.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jddctmgr.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jdhuff.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jdinput.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jdmainct.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jdmarker.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jdmaster.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jdmerge.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jdphuff.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jdpostct.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jdsample.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jdtrans.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jerror.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jfdctflt.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jfdctfst.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jfdctint.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jidctflt.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jidctfst.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jidctint.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jidctred.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jmemmgr.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jmemnobs.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jquant1.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jquant2.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jutils.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simd\jsimd_i386.c">
+      <Filter>src\simd</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\jchuff.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jconfigint.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jdcoefct.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jdct.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jdhuff.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jdmainct.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jdmaster.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jdsample.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jerror.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jinclude.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jmemsys.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jmorecfg.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jpeg_nbits_table.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jpegcomp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jpegint.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jpeglib.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsimd.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jsimddct.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jversion.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\simd\jsimd.h">
+      <Filter>src\simd</Filter>
+    </ClInclude>
+    <ClInclude Include="include\jconfig.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\jmorecfg.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\jpeglib.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="src\simd\jccolor-mmx.obj">
+      <Filter>src\simd</Filter>
+    </Object>
+    <Object Include="src\simd\jccolor-sse2.obj">
+      <Filter>src\simd</Filter>
+    </Object>
+    <Object Include="src\simd\jcgray-mmx.obj">
+      <Filter>src\simd</Filter>
+    </Object>
+    <Object Include="src\simd\jcgray-sse2.obj">
+      <Filter>src\simd</Filter>
+    </Object>
+    <Object Include="src\simd\jchuff-sse2.obj">
+      <Filter>src\simd</Filter>
+    </Object>
+    <Object Include="src\simd\jcsample-mmx.obj">
+      <Filter>src\simd</Filter>
+    </Object>
+    <Object Include="src\simd\jcsample-sse2.obj">
+      <Filter>src\simd</Filter>
+    </Object>
+    <Object Include="src\simd\jdcolor-mmx.obj">
+      <Filter>src\simd</Filter>
+    </Object>
+    <Object Include="src\simd\jdcolor-sse2.obj">
+      <Filter>src\simd</Filter>
+    </Object>
+    <Object Include="src\simd\jdmerge-mmx.obj">
+      <Filter>src\simd</Filter>
+    </Object>
+    <Object Include="src\simd\jdmerge-sse2.obj">
+      <Filter>src\simd</Filter>
+    </Object>
+    <Object Include="src\simd\jdsample-mmx.obj">
+      <Filter>src\simd</Filter>
+    </Object>
+    <Object Include="src\simd\jdsample-sse2.obj">
+      <Filter>src\simd</Filter>
+    </Object>
+    <Object Include="src\simd\jfdctflt-3dn.obj">
+      <Filter>src\simd</Filter>
+    </Object>
+    <Object Include="src\simd\jfdctflt-sse.obj">
+      <Filter>src\simd</Filter>
+    </Object>
+    <Object Include="src\simd\jfdctfst-mmx.obj">
+      <Filter>src\simd</Filter>
+    </Object>
+    <Object Include="src\simd\jfdctfst-sse2.obj">
+      <Filter>src\simd</Filter>
+    </Object>
+    <Object Include="src\simd\jfdctint-mmx.obj">
+      <Filter>src\simd</Filter>
+    </Object>
+    <Object Include="src\simd\jfdctint-sse2.obj">
+      <Filter>src\simd</Filter>
+    </Object>
+    <Object Include="src\simd\jidctflt-3dn.obj">
+      <Filter>src\simd</Filter>
+    </Object>
+    <Object Include="src\simd\jidctflt-sse.obj">
+      <Filter>src\simd</Filter>
+    </Object>
+    <Object Include="src\simd\jidctflt-sse2.obj">
+      <Filter>src\simd</Filter>
+    </Object>
+    <Object Include="src\simd\jidctfst-mmx.obj">
+      <Filter>src\simd</Filter>
+    </Object>
+    <Object Include="src\simd\jidctfst-sse2.obj">
+      <Filter>src\simd</Filter>
+    </Object>
+    <Object Include="src\simd\jidctint-mmx.obj">
+      <Filter>src\simd</Filter>
+    </Object>
+    <Object Include="src\simd\jidctint-sse2.obj">
+      <Filter>src\simd</Filter>
+    </Object>
+    <Object Include="src\simd\jidctred-mmx.obj">
+      <Filter>src\simd</Filter>
+    </Object>
+    <Object Include="src\simd\jidctred-sse2.obj">
+      <Filter>src\simd</Filter>
+    </Object>
+    <Object Include="src\simd\jquant-3dn.obj">
+      <Filter>src\simd</Filter>
+    </Object>
+    <Object Include="src\simd\jquantf-sse2.obj">
+      <Filter>src\simd</Filter>
+    </Object>
+    <Object Include="src\simd\jquanti-sse2.obj">
+      <Filter>src\simd</Filter>
+    </Object>
+    <Object Include="src\simd\jquant-mmx.obj">
+      <Filter>src\simd</Filter>
+    </Object>
+    <Object Include="src\simd\jquant-sse.obj">
+      <Filter>src\simd</Filter>
+    </Object>
+    <Object Include="src\simd\jsimdcpu.obj">
+      <Filter>src\simd</Filter>
+    </Object>
+  </ItemGroup>
+</Project>
